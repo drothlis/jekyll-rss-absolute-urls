@@ -3,7 +3,7 @@ A Jekyll plugin that provides a Liquid filter to convert relative URLs to absolu
 
 ## Install
 - Copy the plugin file to your `/_plugins` directory (create one if you don't already have one)
-- Apply the filter to your XML feed file(s).  It might look something like this: `<description>{{ post.content | xml_escape | relative_urls_to_absolute }}</description>`
+- Apply the filter to your XML feed file(s).  It might look something like this: `<description>{{ post.content | relative_urls_to_absolute | xml_escape }}</description>`
 
 ## Credits and Example
 - Special thanks to [John Tornow](http://johntornow.com/) for the help!
